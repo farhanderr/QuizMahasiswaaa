@@ -60,6 +60,12 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>DataClasses1.dbml</DependentUpon>
     </Compile>
+    <Compile Include="Formtesting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formtesting.Designer.cs">
+      <DependentUpon>Formtesting.cs</DependentUpon>
+    </Compile>
     <Compile Include="formutama.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -83,16 +89,6 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>QuizMahasiswaDataSet1.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="QuizMahasiswaDataSet2.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>QuizMahasiswaDataSet2.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="QuizMahasiswaDataSet3.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>QuizMahasiswaDataSet3.xsd</DependentUpon>
     </Compile>
     <Compile Include="ReportBarang009.cs">
       <SubType>Form</SubType>
@@ -156,28 +152,6 @@
     </None>
     <None Include="QuizMahasiswaDataSet1.xss">
       <DependentUpon>QuizMahasiswaDataSet1.xsd</DependentUpon>
-    </None>
-    <None Include="QuizMahasiswaDataSet2.xsc">
-      <DependentUpon>QuizMahasiswaDataSet2.xsd</DependentUpon>
-    </None>
-    <None Include="QuizMahasiswaDataSet2.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>QuizMahasiswaDataSet2.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="QuizMahasiswaDataSet2.xss">
-      <DependentUpon>QuizMahasiswaDataSet2.xsd</DependentUpon>
-    </None>
-    <None Include="QuizMahasiswaDataSet3.xsc">
-      <DependentUpon>QuizMahasiswaDataSet3.xsd</DependentUpon>
-    </None>
-    <None Include="QuizMahasiswaDataSet3.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>QuizMahasiswaDataSet3.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="QuizMahasiswaDataSet3.xss">
-      <DependentUpon>QuizMahasiswaDataSet3.xsd</DependentUpon>
     </None>
   </ItemGroup>
   <ItemGroup>
