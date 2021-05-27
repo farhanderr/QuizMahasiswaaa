@@ -28,5 +28,10 @@ namespace QuizMahasiswa
             ReportBarang009 a = new ReportBarang009();
             a.Show();
         }
+
+        private void formutama_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

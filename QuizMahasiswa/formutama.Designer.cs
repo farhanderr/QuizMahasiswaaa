@@ -61,6 +61,7 @@
             this.Controls.Add(this.button1);
             this.Name = "formutama";
             this.Text = "formutama";
+            this.Load += new System.EventHandler(this.formutama_Load);
             this.ResumeLayout(false);
 
         }

@@ -34,11 +34,12 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="itextsharp">
-      <HintPath>..\..\..\itextsharp.dll</HintPath>
+      <HintPath>..\..\..\..\..\Downloads\itextsharp.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.Office.Interop.Excel %281%29">
-      <HintPath>..\..\..\sampah\Microsoft.Office.Interop.Excel (1).dll</HintPath>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\..\..\..\..\Downloads\Microsoft.Office.Interop.Excel.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -82,6 +83,16 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>QuizMahasiswaDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QuizMahasiswaDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QuizMahasiswaDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QuizMahasiswaDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QuizMahasiswaDataSet3.xsd</DependentUpon>
     </Compile>
     <Compile Include="ReportBarang009.cs">
       <SubType>Form</SubType>
@@ -145,6 +156,28 @@
     </None>
     <None Include="QuizMahasiswaDataSet1.xss">
       <DependentUpon>QuizMahasiswaDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="QuizMahasiswaDataSet2.xsc">
+      <DependentUpon>QuizMahasiswaDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="QuizMahasiswaDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QuizMahasiswaDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QuizMahasiswaDataSet2.xss">
+      <DependentUpon>QuizMahasiswaDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="QuizMahasiswaDataSet3.xsc">
+      <DependentUpon>QuizMahasiswaDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="QuizMahasiswaDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QuizMahasiswaDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QuizMahasiswaDataSet3.xss">
+      <DependentUpon>QuizMahasiswaDataSet3.xsd</DependentUpon>
     </None>
   </ItemGroup>
   <ItemGroup>
