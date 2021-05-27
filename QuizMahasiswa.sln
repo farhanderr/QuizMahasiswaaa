@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.28307.1433
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuizMahasiswa", "QuizMahasiswa\QuizMahasiswa.csproj", "{91D2576A-450D-4BAF-88B2-DD898B24EBD8}"
 EndProject
-Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup1", "Setup1\Setup1.vdproj", "{0A22FFB8-1A17-4EB4-84A2-355158F1BC81}"
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup2", "Setup2\Setup2.vdproj", "{1F846B8D-DC42-4988-8310-4AED2D663041}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,8 +17,8 @@ Global
 		{91D2576A-450D-4BAF-88B2-DD898B24EBD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{91D2576A-450D-4BAF-88B2-DD898B24EBD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{91D2576A-450D-4BAF-88B2-DD898B24EBD8}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0A22FFB8-1A17-4EB4-84A2-355158F1BC81}.Debug|Any CPU.ActiveCfg = Debug
-		{0A22FFB8-1A17-4EB4-84A2-355158F1BC81}.Release|Any CPU.ActiveCfg = Release
+		{1F846B8D-DC42-4988-8310-4AED2D663041}.Debug|Any CPU.ActiveCfg = Debug
+		{1F846B8D-DC42-4988-8310-4AED2D663041}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
