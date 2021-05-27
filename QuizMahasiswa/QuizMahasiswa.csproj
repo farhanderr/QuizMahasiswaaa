@@ -59,6 +59,12 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>DataClasses1.dbml</DependentUpon>
     </Compile>
+    <Compile Include="formutama.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formutama.Designer.cs">
+      <DependentUpon>formutama.cs</DependentUpon>
+    </Compile>
     <Compile Include="Masterbarang018.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -83,6 +89,9 @@
     <Compile Include="ReportBarang009.Designer.cs">
       <DependentUpon>ReportBarang009.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="formutama.resx">
+      <DependentUpon>formutama.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Masterbarang018.resx">
       <DependentUpon>Masterbarang018.cs</DependentUpon>
     </EmbeddedResource>
